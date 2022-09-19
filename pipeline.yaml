@@ -75,7 +75,7 @@ Resources:
         - Arn
       Source:
         Type: GITHUB
-        Location: !Sub 'https://github.com/${GitHubOwner}/${GitHubRepository}.git'
+        Location: 'https://github.com/rsaideekshith/github-aws-cicd.git'
         BuildSpec: buildspec.yaml
         Auth:
           Type: OAUTH
